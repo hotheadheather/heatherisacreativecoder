@@ -1,0 +1,171 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<style>
+    html {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    .title {
+        color: grey;
+    }
+</style>
+
+<div class="jumbotron">
+
+    <p class="lead">
+ 
+        <center>
+
+            <img src="../static/images/net/net.jpg" alt="net" style="width:10%">
+            <br />
+            <br />
+
+
+            <img src="../static/images/net/netbanner.jpg" alt="netbanner" style="width:100%">
+        </center>
+
+
+  
+    </p>
+
+</div>
+
+
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+
+            <div class="container">
+
+                <h2>FireFlySupply</h2>
+                <p class="title">A web app that specializes in selling the ingredients needed to make fireworks. It includes 4 tables including customers, colors, chemicals and orders. As a user you can make an order and see your shopping cart.</p>
+
+
+                <img src="../static/images/net/fire1.jpg" alt="fire" style="width:100%">
+                <img src="../static/images/net/fire2.jpg" alt="fire" style="width:100%">
+                <img src="../static/images/net/fire3.jpg" alt="fire" style="width:100%">
+                <img src="../static/images/net/fire4.jpg" alt="fire" style="width:100%">
+                <img src="../static/images/net/fire5.jpg" alt="fire" style="width:100%">
+                <img src="../static/images/net/fire6.jpg" alt="fire" style="width:100%">
+
+            </div>
+            <a href=" https://github.com/hotheadheather/PHP"></a>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="column">
+        <div class="card">
+            <div class="container">
+                <h2>Mud Mountain</h2>
+
+                <p>
+                    This app is used for a Ceramics database that works with glaze pigment.
+                    It allows users access to CRUD operations and allows users to search data alphabetically or by date.
+                </p>
+                <p class="title"></p>
+                <img src="../static/images/net/mm1.jpg" alt="mm" style="width:100%">
+                <img src="../static/images/net/mm2.jpg" alt="mm" style="width:100%">
+                <img src="../static/images/net/mm3.jpg" alt="mm" style="width:100%">
+                <img src="../static/images/net/mm4.jpg" alt="mm" style="width:100%">
+                <img src="../static/images/net/mm5.jpg" alt="mm" style="width:100%">
+  
+
+    
+    
+
+
+
+                <div class="container">
+
+
+
+
+
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <div class="container">
+                <h2>To Do List API</h2>
+                <p>
+                    An API that collects a list of things to do and stores them in a session.
+                </p>
+
+                <img src="../static/images/net/api.jpg" alt="api" style="width:100%">
+                <img src="../static/images/net/api2.jpg" alt="api2" style="width:100%">
+
+
+                <div class="container">
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+
+
+                
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+    {% endblock %}

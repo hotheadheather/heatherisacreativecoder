@@ -1,0 +1,171 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<style>
+    html {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 33%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    .title {
+        color: grey;
+    }
+</style>
+
+<div class="jumbotron">
+
+    <p class="lead">
+        <center>
+
+            <img src="../static/images/csharp/csharp.jpg" alt="code" style="width:7%">
+            <br />
+            <br />
+            <img src="../static/images/csharp/csharpbanner.jpg" alt="code" style="width:100%">
+        </center>
+
+
+    </p>
+
+</div>
+
+
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+
+            <div class="container">
+
+                <h2>Let's Play Ball</h2>
+                <p class="title">This console based program collected 3 baseball scores and recorded the average for up to 10 players. The premise of this assignment is to work with arrays</p>
+
+
+                <img src="../static/images/code/baseball.png" alt="baseball" style="width:100%">
+                <img src="../static/images/code/baseballVS.png" alt="baseball2" style="width:100%">
+
+                <p>
+
+                </p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+
+
+
+                <center><p><a href="  https://github.com/hotheadheather/C-Sharp/tree/main/BaseballScores">Baseball Scores</a></p></center>
+
+            </div>
+            <a href=" https://github.com/hotheadheather/PHP"></a>
+        </div>
+    </div>
+
+
+
+    <div class="column">
+        <div class="card">
+            <div class="container">
+                <h2>Landscaping</h2>
+                <p class="title">Landscaping</p>
+                <img src="../static/images/csharp/harry.jpg" alt="harry" style="width:100%">
+                <img src="../static/images/csharp/harry2.jpg" alt="harry2" style="width:100%">
+
+                <div class="container">
+
+
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+
+                    <center>
+                        <p> <a href=" https://github.com/hotheadheather/C-Sharp/tree/main/HaroldsHomeServ">Harold's Home Serv</a></p>
+                    </center>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <div class="container">
+                <h2>Student Scores</h2>
+                <p class="title"> Student scores is a GUI program that collects information on students and whether they have dorm status and then additional questions are asked depending on the student choices.</p>
+                <img src="../static/images/csharp/studentscores3.jpg" alt="student3" style="width:100%">
+                <img src="../static/images/csharp/studentscores2.jpg" alt="student2" style="width:100%">
+                <img src="../static/images/csharp/studentscores.jpg" alt="student3" style="width:100%">
+
+
+                <div class="container">
+                    <br />
+                    <br />
+
+
+
+
+
+                    <center><p><a href=" https://github.com/hotheadheather/C-Sharp/tree/main/StudentScores">Student Scores</a></p></center>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+    {% endblock %}
